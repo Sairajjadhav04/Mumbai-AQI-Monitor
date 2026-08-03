@@ -1,0 +1,501 @@
+state,city,station,aqi,pm25,pm10,so2,no2,o3,co,nh3
+Maharashtra,Mumbai,Churchgate,75,38,72,22,33,76,0.8,24
+Maharashtra,Mumbai,Marine Lines,187,97,213,23,82,68,1.8,19
+Maharashtra,Mumbai,Charni Road,106,40,118,8,34,38,1.9,19
+Maharashtra,Mumbai,Grant Road,47,30,54,27,82,63,1.0,17
+Maharashtra,Mumbai,Mumbai Central,109,52,103,31,68,67,1.3,7
+Maharashtra,Mumbai,Mahalaxmi,132,55,134,23,57,38,1.2,25
+Maharashtra,Mumbai,Lower Parel,124,48,138,17,66,49,1.2,17
+Maharashtra,Mumbai,Prabhadevi,186,101,153,19,84,71,1.8,24
+Maharashtra,Mumbai,Dadar,170,89,194,14,73,56,2.1,20
+Maharashtra,Mumbai,Matunga Road,176,99,135,24,48,69,0.6,6
+Maharashtra,Mumbai,Mahim,178,109,146,28,74,50,0.7,12
+Maharashtra,Mumbai,Bandra,76,48,80,20,80,65,2.1,22
+Maharashtra,Mumbai,Bandra Terminus,109,58,106,27,59,55,1.8,21
+Maharashtra,Mumbai,Khar Road,167,88,180,12,57,73,0.9,6
+Maharashtra,Mumbai,Santacruz,83,51,91,31,86,79,1.3,11
+Maharashtra,Mumbai,Vile Parle,111,64,114,20,85,69,1.9,30
+Maharashtra,Mumbai,Andheri,156,94,159,35,24,73,0.9,19
+Maharashtra,Mumbai,Jogeshwari,70,40,74,28,85,36,1.2,10
+Maharashtra,Mumbai,Ram Mandir,153,88,174,8,54,77,1.3,8
+Maharashtra,Mumbai,Goregaon,94,58,96,10,77,78,0.4,5
+Maharashtra,Mumbai,Malad,160,97,130,25,45,35,0.6,6
+Maharashtra,Mumbai,Kandivali,184,86,183,10,20,40,1.6,23
+Maharashtra,Mumbai,Borivali,170,108,144,23,48,50,1.5,24
+Maharashtra,Mumbai,Dahisar,174,84,140,19,40,79,0.6,30
+Maharashtra,Mumbai,Mira Road,123,78,118,18,39,53,1.9,17
+Maharashtra,Mumbai,Bhayandar,48,19,48,34,29,23,1.9,25
+Maharashtra,Mumbai,Naigaon,135,52,102,22,80,40,1.6,19
+Maharashtra,Mumbai,Vasai Road,128,55,127,20,41,29,1.5,11
+Maharashtra,Mumbai,Nalasopara,156,98,138,20,49,63,1.7,22
+Maharashtra,Mumbai,Virar,147,57,122,26,42,22,1.6,6
+Maharashtra,Mumbai,Chhatrapati Shivaji Maharaj Terminus,160,101,144,21,22,28,1.6,11
+Maharashtra,Mumbai,Masjid,177,75,152,27,43,44,0.9,22
+Maharashtra,Mumbai,Sandhurst Road,151,62,137,15,43,42,0.7,19
+Maharashtra,Mumbai,Byculla,172,91,165,20,42,40,1.3,19
+Maharashtra,Mumbai,Chinchpokli,75,44,81,22,55,72,0.6,11
+Maharashtra,Mumbai,Currey Road,104,39,83,34,78,61,1.0,22
+Maharashtra,Mumbai,Parel,91,34,90,33,40,42,1.4,23
+Maharashtra,Mumbai,Matunga,182,82,150,25,55,55,1.8,28
+Maharashtra,Mumbai,Sion,99,55,92,24,54,62,1.4,8
+Maharashtra,Mumbai,Kurla,112,45,111,11,33,63,0.5,16
+Maharashtra,Mumbai,Vidyavihar,92,54,75,22,60,37,1.5,7
+Maharashtra,Mumbai,Ghatkopar,119,65,99,14,52,24,0.4,29
+Maharashtra,Mumbai,Vikhroli,110,54,82,7,32,35,0.4,8
+Maharashtra,Mumbai,Kanjurmarg,69,43,71,35,64,40,1.8,24
+Maharashtra,Mumbai,Bhandup,54,32,52,25,47,58,1.2,26
+Maharashtra,Mumbai,Nahur,75,39,83,22,52,44,0.9,16
+Maharashtra,Mumbai,Mulund,59,35,45,15,62,38,1.7,29
+Maharashtra,Mumbai,Thane,76,37,81,19,60,57,2.0,22
+Maharashtra,Mumbai,Kalwa,132,62,134,7,34,30,1.5,8
+Maharashtra,Mumbai,Mumbra,54,24,56,17,58,21,1.2,9
+Maharashtra,Mumbai,Diva,136,77,126,18,50,69,1.2,12
+Maharashtra,Mumbai,Dombivli,77,34,58,27,89,63,1.4,13
+Maharashtra,Mumbai,Thakurli,82,38,62,6,55,54,1.3,13
+Maharashtra,Mumbai,Kalyan,125,55,133,24,31,73,0.7,6
+Maharashtra,Mumbai,Shahad,176,82,175,26,86,68,1.7,6
+Maharashtra,Mumbai,Ambivli,47,27,44,21,27,34,1.6,9
+Maharashtra,Mumbai,Titwala,147,78,160,13,55,41,2.0,16
+Maharashtra,Mumbai,Khardi,136,80,142,20,90,71,1.3,30
+Maharashtra,Mumbai,Kasara,124,59,103,26,72,29,1.3,5
+Maharashtra,Mumbai,Vithalwadi,135,84,145,19,24,60,0.7,14
+Maharashtra,Mumbai,Ulhasnagar,140,87,151,14,37,65,1.7,5
+Maharashtra,Mumbai,Ambernath,181,81,174,24,25,45,1.1,21
+Maharashtra,Mumbai,Badlapur,85,48,69,8,38,66,1.1,22
+Maharashtra,Mumbai,Vangani,111,51,85,29,44,30,2.0,14
+Maharashtra,Mumbai,Shelu,183,87,182,10,69,32,2.2,25
+Maharashtra,Mumbai,Neral,47,30,49,26,81,80,1.2,30
+Maharashtra,Mumbai,Bhivpuri Road,182,79,202,6,42,40,1.4,10
+Maharashtra,Mumbai,Karjat,52,33,46,22,20,73,1.1,16
+Maharashtra,Mumbai,Khopoli,122,59,125,10,51,28,0.6,15
+Maharashtra,Mumbai,Dockyard Road,169,70,135,18,53,59,0.9,8
+Maharashtra,Mumbai,Reay Road,134,80,131,9,86,35,1.9,26
+Maharashtra,Mumbai,Cotton Green,161,98,164,8,28,69,2.2,30
+Maharashtra,Mumbai,Sewri,171,83,161,30,48,30,1.0,21
+Maharashtra,Mumbai,Wadala Road,188,92,182,35,83,45,1.0,11
+Maharashtra,Mumbai,GTB Nagar,163,75,166,30,64,46,1.9,23
+Maharashtra,Mumbai,Chunabhatti,142,66,115,20,36,47,0.9,8
+Maharashtra,Mumbai,Tilak Nagar,126,64,122,14,38,54,1.5,12
+Maharashtra,Mumbai,Chembur,129,58,131,30,35,37,0.9,19
+Maharashtra,Mumbai,Govandi,147,80,111,23,62,63,1.1,8
+Maharashtra,Mumbai,Mankhurd,171,107,194,12,74,42,1.6,6
+Maharashtra,Mumbai,Vashi,147,66,110,14,52,28,1.0,25
+Maharashtra,Mumbai,Sanpada,151,87,167,34,81,41,0.4,29
+Maharashtra,Mumbai,Juinagar,101,58,82,27,54,40,0.4,11
+Maharashtra,Mumbai,Nerul,162,93,156,25,67,25,1.4,11
+Maharashtra,Mumbai,Seawoods-Darave,182,118,137,9,39,41,2.2,19
+Maharashtra,Mumbai,Belapur,97,55,82,28,59,25,1.4,27
+Maharashtra,Mumbai,Kharghar,178,110,204,10,33,21,0.9,18
+Maharashtra,Mumbai,Mansarovar,56,26,59,29,85,34,2.2,20
+Maharashtra,Mumbai,Khandeshwar,132,71,121,16,81,36,1.3,15
+Maharashtra,Mumbai,Panvel,109,42,122,21,37,21,1.3,16
+Maharashtra,Mumbai,Airoli,109,67,110,12,67,37,1.3,28
+Maharashtra,Mumbai,Rabale,147,74,123,24,26,72,1.1,7
+Maharashtra,Mumbai,Ghansoli,175,109,199,30,58,50,1.5,21
+Maharashtra,Mumbai,Kopar Khairane,178,105,174,21,60,62,1.0,10
+Maharashtra,Mumbai,Turbhe,64,41,56,30,52,80,2.1,21
+Maharashtra,Mumbai,Versova,178,91,146,35,47,21,1.2,11
+Maharashtra,Mumbai,D.N. Nagar,154,90,169,22,36,52,0.8,13
+Maharashtra,Mumbai,Azad Nagar,170,72,168,17,70,54,1.5,22
+Maharashtra,Mumbai,Western Express Highway,93,39,104,28,39,66,0.7,30
+Maharashtra,Mumbai,Chakala,60,23,53,31,58,80,1.9,9
+Maharashtra,Mumbai,Airport Road,113,64,92,20,41,31,1.6,29
+Maharashtra,Mumbai,Marol Naka,92,55,78,19,82,78,1.4,5
+Maharashtra,Mumbai,Saki Naka,121,59,122,17,89,25,1.2,28
+Maharashtra,Mumbai,Asalpha,149,65,168,16,38,65,1.3,20
+Maharashtra,Mumbai,Jagruti Nagar,46,17,37,17,52,41,1.8,10
+Maharashtra,Mumbai,Dahisar East,173,77,140,19,75,32,1.9,10
+Maharashtra,Mumbai,Anand Nagar,106,47,121,21,47,43,0.7,18
+Maharashtra,Mumbai,Rushi Sankul,153,87,168,17,46,39,1.5,19
+Maharashtra,Mumbai,Akurli,188,109,202,8,47,67,0.8,29
+Maharashtra,Mumbai,Poisar,65,35,70,27,40,27,0.7,25
+Maharashtra,Mumbai,Magathane,155,70,173,19,23,55,2.1,25
+Maharashtra,Mumbai,Devipada,113,60,107,18,21,50,1.3,13
+Maharashtra,Mumbai,Ovaripada,135,82,109,9,38,55,0.8,16
+Maharashtra,Mumbai,Kandivali West,161,85,126,35,61,68,0.9,26
+Maharashtra,Mumbai,Malad West,65,38,62,17,89,72,1.8,21
+Maharashtra,Mumbai,Goregaon West,70,34,61,7,30,57,0.5,21
+Maharashtra,Mumbai,Oshiwara,160,96,133,18,78,59,1.3,5
+Maharashtra,Mumbai,Lower Oshiwara,84,41,71,6,33,45,0.6,22
+Maharashtra,Mumbai,Andheri West,110,41,84,29,29,68,1.5,8
+Maharashtra,Mumbai,BKC,130,58,116,21,50,40,1.7,19
+Maharashtra,Mumbai,Wadala,107,52,95,22,60,46,0.5,12
+Maharashtra,Mumbai,Acharya Atre Chowk,92,48,81,30,34,57,1.3,17
+Maharashtra,Mumbai,Worli,168,96,128,21,47,44,1.7,21
+Maharashtra,Mumbai,Siddhivinayak,164,70,160,13,86,40,0.9,18
+Maharashtra,Mumbai,Science Museum,51,24,57,33,86,30,2.1,8
+Maharashtra,Mumbai,Cuffe Parade,189,94,168,24,29,55,0.7,17
+Maharashtra,Mumbai,Colaba,73,30,79,19,71,20,0.8,6
+Maharashtra,Mumbai,Bandstand,112,66,94,22,54,78,1.1,13
+Maharashtra,Mumbai,Bandra Reclamation,87,34,78,28,34,77,1.2,26
+Maharashtra,Mumbai,Juhu,54,31,55,32,85,60,2.1,11
+Maharashtra,Mumbai,Vile Parle East,168,66,163,8,41,61,0.5,11
+Maharashtra,Mumbai,Vile Parle West,46,21,35,21,53,24,2.0,28
+Maharashtra,Mumbai,Jogeshwari East,184,79,208,26,86,57,1.4,20
+Maharashtra,Mumbai,Jogeshwari West,58,33,50,23,70,49,0.6,6
+Maharashtra,Mumbai,Goregaon East,48,24,48,23,31,48,1.6,10
+Maharashtra,Mumbai,Malad East,88,40,76,23,45,52,1.8,17
+Maharashtra,Mumbai,Kandivali East,116,54,116,8,22,42,0.5,29
+Maharashtra,Mumbai,Borivali East,78,47,73,32,80,75,1.6,26
+Maharashtra,Mumbai,Borivali West,127,59,126,23,34,28,0.4,17
+Maharashtra,Mumbai,Dahisar West,67,40,70,19,63,52,2.1,7
+Maharashtra,Mumbai,Andheri East,50,29,47,13,34,44,2.0,14
+Maharashtra,Mumbai,Bandra East,190,83,181,29,88,20,2.2,15
+Maharashtra,Mumbai,Bandra West,89,55,95,24,32,35,1.6,29
+Maharashtra,Mumbai,Dadar East,85,51,95,35,81,27,0.5,5
+Maharashtra,Mumbai,Dadar West,180,87,153,19,52,21,1.2,14
+Maharashtra,Mumbai,Mahim East,83,43,62,20,35,26,0.8,15
+Maharashtra,Mumbai,Mahim West,158,64,167,14,76,69,1.2,14
+Maharashtra,Mumbai,Matunga East,109,55,120,19,80,38,1.9,10
+Maharashtra,Mumbai,Matunga West,71,45,72,6,46,33,2.2,14
+Maharashtra,Mumbai,Kurla East,148,70,166,28,61,30,1.8,12
+Maharashtra,Mumbai,Kurla West,143,62,145,16,88,45,0.8,22
+Maharashtra,Mumbai,Ghatkopar East,122,70,135,14,64,75,2.1,12
+Maharashtra,Mumbai,Ghatkopar West,89,49,85,7,45,39,0.7,18
+Maharashtra,Mumbai,Vikhroli East,77,43,81,26,83,63,0.5,14
+Maharashtra,Mumbai,Vikhroli West,54,30,57,15,72,34,2.2,25
+Maharashtra,Mumbai,Bhandup East,181,100,171,31,84,42,1.9,16
+Maharashtra,Mumbai,Bhandup West,144,87,122,6,73,53,1.2,24
+Maharashtra,Mumbai,Mulund East,138,67,138,24,68,42,2.0,5
+Maharashtra,Mumbai,Mulund West,72,34,60,11,82,59,1.1,10
+Maharashtra,Mumbai,Sion East,156,91,129,17,23,54,0.6,8
+Maharashtra,Mumbai,Sion West,74,34,67,9,78,58,1.0,21
+Maharashtra,Mumbai,Wadala East,70,39,59,16,59,77,0.4,7
+Maharashtra,Mumbai,Wadala West,132,59,128,26,72,26,1.6,11
+Maharashtra,Mumbai,Chembur East,186,101,182,25,43,27,0.6,12
+Maharashtra,Mumbai,Chembur West,83,45,91,33,32,78,2.2,30
+Maharashtra,Mumbai,Mankhurd East,153,66,119,6,79,47,2.0,7
+Maharashtra,Mumbai,Mankhurd West,158,91,125,20,80,42,1.7,6
+Maharashtra,Mumbai,Govandi East,149,67,138,26,28,36,1.7,21
+Maharashtra,Mumbai,Govandi West,108,54,87,17,41,20,1.9,24
+Maharashtra,Mumbai,Vashi East,123,62,141,31,75,70,0.6,12
+Maharashtra,Mumbai,Vashi West,138,56,129,34,30,56,1.8,13
+Maharashtra,Mumbai,Nerul East,126,74,133,33,59,34,1.7,24
+Maharashtra,Mumbai,Nerul West,179,79,201,19,52,22,1.4,13
+Maharashtra,Mumbai,Belapur East,179,97,171,19,53,33,1.7,29
+Maharashtra,Mumbai,Belapur West,158,70,163,32,86,39,2.1,14
+Maharashtra,Mumbai,Panvel East,73,46,63,6,45,58,1.5,27
+Maharashtra,Mumbai,Panvel West,126,54,136,16,71,61,1.2,19
+Maharashtra,Mumbai,Mira Road East,141,59,128,33,75,68,1.6,23
+Maharashtra,Mumbai,Mira Road West,128,72,118,6,65,44,1.7,30
+Maharashtra,Mumbai,Bhayandar East,109,66,111,6,66,46,1.2,24
+Maharashtra,Mumbai,Bhayandar West,50,32,51,23,89,70,0.5,29
+Maharashtra,Mumbai,Vasai East,129,76,112,18,58,78,2.0,27
+Maharashtra,Mumbai,Vasai West,110,41,95,12,27,24,0.8,6
+Maharashtra,Mumbai,Nalasopara East,138,86,132,9,88,53,1.5,6
+Maharashtra,Mumbai,Nalasopara West,119,53,95,33,73,34,0.6,7
+Maharashtra,Mumbai,Virar East,71,28,71,33,69,22,0.6,22
+Maharashtra,Mumbai,Virar West,51,31,50,19,67,55,1.6,30
+Maharashtra,Mumbai,Powai Lake,157,71,123,19,59,29,0.9,22
+Maharashtra,Mumbai,Hiranandani,87,52,90,28,26,24,1.2,23
+Maharashtra,Mumbai,IIT Bombay,150,87,140,26,38,70,0.4,29
+Maharashtra,Mumbai,Aarey,69,30,64,12,54,67,1.2,24
+Maharashtra,Mumbai,SEEPZ,83,37,82,11,57,21,2.0,11
+Maharashtra,Mumbai,MIDC Andheri,164,86,132,17,70,24,1.9,5
+Maharashtra,Mumbai,Nariman Point,138,88,145,8,55,55,0.8,15
+Maharashtra,Mumbai,Marine Drive,110,43,101,23,34,72,1.4,27
+Maharashtra,Mumbai,Fort,102,52,111,17,37,30,0.7,22
+Maharashtra,Mumbai,Worli Sea Face,109,62,88,18,52,57,1.6,16
+Maharashtra,Mumbai,Haji Ali,93,41,80,17,80,24,2.0,24
+Maharashtra,Mumbai,Shivaji Park,79,49,77,31,88,23,2.2,16
+Maharashtra,Mumbai,Dadar TT,102,61,93,21,24,78,0.9,13
+Maharashtra,Mumbai,King's Circle,161,86,133,12,59,27,0.9,26
+Maharashtra,Mumbai,Sion Circle,151,61,143,16,56,39,0.6,27
+Maharashtra,Mumbai,Bandra Kurla Complex,57,23,51,30,75,25,2.0,25
+Maharashtra,Mumbai,Kalina,96,53,72,6,60,32,0.4,15
+Maharashtra,Mumbai,Vakola,69,34,66,22,72,63,1.0,28
+Maharashtra,Mumbai,Marol,101,39,97,32,83,79,1.6,27
+Maharashtra,Mumbai,Chakala MIDC,154,61,155,26,63,75,1.1,22
+Maharashtra,Mumbai,Turbhe MIDC,110,58,122,22,64,71,1.1,29
+Maharashtra,Mumbai,Vashi Plaza,65,24,61,20,26,61,1.5,20
+Maharashtra,Mumbai,CBD Belapur,82,52,92,18,35,65,2.0,16
+Maharashtra,Mumbai,Kharghar Central Park,76,36,60,13,74,34,1.6,13
+Maharashtra,Mumbai,Churchgate,99,51,74,9,24,67,2.1,20
+Maharashtra,Mumbai,Marine Lines,134,61,125,34,36,72,0.8,24
+Maharashtra,Mumbai,Charni Road,122,57,110,30,75,38,1.2,18
+Maharashtra,Mumbai,Grant Road,187,98,165,8,70,44,1.9,11
+Maharashtra,Mumbai,Mumbai Central,184,116,211,30,82,36,1.8,27
+Maharashtra,Mumbai,Mahalaxmi,106,63,100,23,31,74,0.8,13
+Maharashtra,Mumbai,Lower Parel,92,36,98,11,48,66,1.8,14
+Maharashtra,Mumbai,Prabhadevi,149,85,164,20,25,80,0.9,28
+Maharashtra,Mumbai,Dadar,119,50,129,7,55,73,2.0,19
+Maharashtra,Mumbai,Matunga Road,131,53,146,18,87,52,1.2,15
+Maharashtra,Mumbai,Mahim,152,62,121,28,55,27,1.7,21
+Maharashtra,Mumbai,Bandra,78,36,78,31,60,80,0.8,24
+Maharashtra,Mumbai,Bandra Terminus,114,43,128,15,41,56,2.1,29
+Maharashtra,Mumbai,Khar Road,168,80,184,22,29,69,1.4,13
+Maharashtra,Mumbai,Santacruz,113,67,84,11,70,25,1.5,17
+Maharashtra,Mumbai,Vile Parle,188,115,141,29,20,24,0.5,5
+Maharashtra,Mumbai,Andheri,55,30,61,10,22,21,1.3,29
+Maharashtra,Mumbai,Jogeshwari,49,27,40,20,26,32,1.8,24
+Maharashtra,Mumbai,Ram Mandir,84,46,75,13,24,43,1.2,11
+Maharashtra,Mumbai,Goregaon,54,29,56,22,81,48,1.6,27
+Maharashtra,Mumbai,Malad,69,39,73,18,29,77,0.6,17
+Maharashtra,Mumbai,Kandivali,106,51,84,8,20,31,0.5,21
+Maharashtra,Mumbai,Borivali,106,41,82,33,59,20,1.5,5
+Maharashtra,Mumbai,Dahisar,46,21,39,18,45,68,1.2,7
+Maharashtra,Mumbai,Mira Road,155,89,122,16,64,31,1.9,12
+Maharashtra,Mumbai,Bhayandar,56,23,46,19,76,22,1.3,7
+Maharashtra,Mumbai,Naigaon,83,50,90,21,22,75,1.0,20
+Maharashtra,Mumbai,Vasai Road,89,51,76,12,85,24,1.7,11
+Maharashtra,Mumbai,Nalasopara,95,51,74,32,36,51,1.6,8
+Maharashtra,Mumbai,Virar,176,92,147,17,35,28,1.9,24
+Maharashtra,Mumbai,Chhatrapati Shivaji Maharaj Terminus,72,36,69,35,22,62,1.1,15
+Maharashtra,Mumbai,Masjid,125,63,127,34,60,23,1.2,12
+Maharashtra,Mumbai,Sandhurst Road,129,55,121,21,73,70,1.9,9
+Maharashtra,Mumbai,Byculla,126,76,106,14,90,66,0.6,13
+Maharashtra,Mumbai,Chinchpokli,75,42,84,34,40,44,0.9,28
+Maharashtra,Mumbai,Currey Road,149,81,162,10,86,71,0.7,5
+Maharashtra,Mumbai,Parel,89,33,99,29,37,65,1.7,9
+Maharashtra,Mumbai,Matunga,84,31,81,10,71,30,1.3,19
+Maharashtra,Mumbai,Sion,51,31,52,7,68,23,2.0,25
+Maharashtra,Mumbai,Kurla,75,45,72,24,77,20,0.9,15
+Maharashtra,Mumbai,Vidyavihar,75,42,85,23,26,72,0.6,12
+Maharashtra,Mumbai,Ghatkopar,81,40,71,18,66,76,1.7,28
+Maharashtra,Mumbai,Vikhroli,94,55,100,22,37,78,1.2,27
+Maharashtra,Mumbai,Kanjurmarg,53,30,56,10,32,64,1.9,17
+Maharashtra,Mumbai,Bhandup,72,32,57,12,87,42,1.1,19
+Maharashtra,Mumbai,Nahur,55,20,46,10,47,54,1.1,29
+Maharashtra,Mumbai,Mulund,145,93,165,16,46,36,0.8,20
+Maharashtra,Mumbai,Thane,120,70,110,33,61,22,0.5,28
+Maharashtra,Mumbai,Kalwa,137,59,105,29,26,47,0.7,28
+Maharashtra,Mumbai,Mumbra,169,68,186,8,35,30,1.8,13
+Maharashtra,Mumbai,Diva,102,45,116,17,29,46,1.0,16
+Maharashtra,Mumbai,Dombivli,54,33,60,6,33,40,0.9,8
+Maharashtra,Mumbai,Thakurli,144,58,110,12,23,29,0.7,5
+Maharashtra,Mumbai,Kalyan,85,35,85,32,40,20,1.1,27
+Maharashtra,Mumbai,Shahad,75,30,64,23,37,58,1.6,8
+Maharashtra,Mumbai,Ambivli,175,79,167,9,22,75,1.4,30
+Maharashtra,Mumbai,Titwala,99,53,99,29,28,72,0.8,30
+Maharashtra,Mumbai,Khardi,78,32,66,11,42,80,0.8,30
+Maharashtra,Mumbai,Kasara,178,109,181,12,82,70,2.0,30
+Maharashtra,Mumbai,Vithalwadi,181,97,197,18,25,38,1.7,16
+Maharashtra,Mumbai,Ulhasnagar,123,56,110,32,69,53,1.6,14
+Maharashtra,Mumbai,Ambernath,83,39,70,30,77,47,0.9,7
+Maharashtra,Mumbai,Badlapur,85,51,94,15,52,66,1.5,17
+Maharashtra,Mumbai,Vangani,147,57,127,32,79,25,0.8,12
+Maharashtra,Mumbai,Shelu,145,58,150,17,63,21,0.9,17
+Maharashtra,Mumbai,Neral,138,81,103,24,72,23,1.0,13
+Maharashtra,Mumbai,Bhivpuri Road,101,45,88,22,79,79,1.8,26
+Maharashtra,Mumbai,Karjat,87,45,99,33,81,49,0.6,24
+Maharashtra,Mumbai,Khopoli,147,73,126,15,71,73,1.5,30
+Maharashtra,Mumbai,Dockyard Road,56,28,56,11,23,40,1.2,12
+Maharashtra,Mumbai,Reay Road,77,42,81,27,20,50,1.0,21
+Maharashtra,Mumbai,Cotton Green,142,75,111,19,58,54,0.5,22
+Maharashtra,Mumbai,Sewri,179,79,139,27,51,56,1.2,30
+Maharashtra,Mumbai,Wadala Road,91,35,102,34,76,46,1.4,12
+Maharashtra,Mumbai,GTB Nagar,172,70,143,6,23,69,1.4,24
+Maharashtra,Mumbai,Chunabhatti,172,91,131,6,42,68,1.3,9
+Maharashtra,Mumbai,Tilak Nagar,87,33,96,6,31,60,2.1,18
+Maharashtra,Mumbai,Chembur,82,50,94,14,59,31,2.2,21
+Maharashtra,Mumbai,Govandi,81,31,84,29,39,37,1.9,11
+Maharashtra,Mumbai,Mankhurd,61,37,61,14,74,79,1.8,13
+Maharashtra,Mumbai,Vashi,98,42,86,9,75,64,1.3,19
+Maharashtra,Mumbai,Sanpada,159,98,139,8,56,25,1.7,11
+Maharashtra,Mumbai,Juinagar,119,64,117,26,70,48,0.6,16
+Maharashtra,Mumbai,Nerul,89,35,100,35,24,71,0.8,10
+Maharashtra,Mumbai,Seawoods-Darave,63,27,70,19,70,52,1.2,23
+Maharashtra,Mumbai,Belapur,85,37,92,32,31,34,1.3,29
+Maharashtra,Mumbai,Kharghar,75,33,84,24,54,67,2.1,7
+Maharashtra,Mumbai,Mansarovar,140,54,147,10,67,29,1.5,6
+Maharashtra,Mumbai,Khandeshwar,170,82,148,16,69,40,1.3,21
+Maharashtra,Mumbai,Panvel,93,50,75,21,71,33,0.9,9
+Maharashtra,Mumbai,Airoli,155,60,161,19,53,40,0.4,7
+Maharashtra,Mumbai,Rabale,64,33,59,25,56,46,0.5,23
+Maharashtra,Mumbai,Ghansoli,155,81,169,26,88,38,1.0,29
+Maharashtra,Mumbai,Kopar Khairane,56,21,56,26,54,65,1.3,8
+Maharashtra,Mumbai,Turbhe,117,51,87,9,46,71,0.8,30
+Maharashtra,Mumbai,Versova,140,80,107,14,23,55,1.7,11
+Maharashtra,Mumbai,D.N. Nagar,163,93,131,25,62,73,1.6,27
+Maharashtra,Mumbai,Azad Nagar,152,61,172,6,29,23,0.6,27
+Maharashtra,Mumbai,Western Express Highway,131,67,114,15,68,24,1.1,16
+Maharashtra,Mumbai,Chakala,169,86,157,25,37,68,0.5,26
+Maharashtra,Mumbai,Airport Road,88,44,84,24,24,74,1.5,30
+Maharashtra,Mumbai,Marol Naka,87,53,69,23,84,59,1.9,28
+Maharashtra,Mumbai,Saki Naka,60,31,63,25,62,35,2.0,30
+Maharashtra,Mumbai,Asalpha,121,56,104,21,49,33,1.6,25
+Maharashtra,Mumbai,Jagruti Nagar,189,119,197,24,60,74,2.2,18
+Maharashtra,Mumbai,Dahisar East,179,88,170,10,54,49,0.9,28
+Maharashtra,Mumbai,Anand Nagar,175,66,173,24,54,58,1.3,28
+Maharashtra,Mumbai,Rushi Sankul,141,76,128,22,65,78,1.2,30
+Maharashtra,Mumbai,Akurli,80,40,71,23,54,40,2.2,18
+Maharashtra,Mumbai,Poisar,64,40,63,28,47,36,0.5,16
+Maharashtra,Mumbai,Magathane,147,60,123,17,83,70,1.1,18
+Maharashtra,Mumbai,Devipada,118,54,114,26,69,61,1.5,26
+Maharashtra,Mumbai,Ovaripada,75,48,67,27,46,35,0.5,24
+Maharashtra,Mumbai,Kandivali West,65,32,55,28,23,51,0.9,19
+Maharashtra,Mumbai,Malad West,158,84,142,27,86,61,1.1,23
+Maharashtra,Mumbai,Goregaon West,63,40,50,15,54,24,1.3,7
+Maharashtra,Mumbai,Oshiwara,104,59,119,14,25,78,1.9,24
+Maharashtra,Mumbai,Lower Oshiwara,125,74,107,9,54,32,1.9,26
+Maharashtra,Mumbai,Andheri West,137,69,148,18,34,52,0.5,19
+Maharashtra,Mumbai,BKC,134,74,128,23,34,78,1.3,27
+Maharashtra,Mumbai,Wadala,116,68,112,15,29,30,2.0,5
+Maharashtra,Mumbai,Acharya Atre Chowk,92,50,86,23,63,28,1.6,15
+Maharashtra,Mumbai,Worli,186,71,159,27,67,77,1.5,29
+Maharashtra,Mumbai,Siddhivinayak,158,94,126,32,82,44,1.3,20
+Maharashtra,Mumbai,Science Museum,175,82,182,30,35,51,1.5,22
+Maharashtra,Mumbai,Cuffe Parade,133,70,130,16,72,47,0.4,16
+Maharashtra,Mumbai,Colaba,137,70,143,22,44,78,1.9,26
+Maharashtra,Mumbai,Bandstand,150,88,115,23,89,66,1.3,15
+Maharashtra,Mumbai,Bandra Reclamation,93,37,94,34,43,36,1.8,21
+Maharashtra,Mumbai,Juhu,161,65,182,20,53,53,2.0,11
+Maharashtra,Mumbai,Vile Parle East,149,96,128,7,45,28,0.4,23
+Maharashtra,Mumbai,Vile Parle West,67,39,55,32,37,59,0.5,29
+Maharashtra,Mumbai,Jogeshwari East,128,77,117,7,60,53,0.5,20
+Maharashtra,Mumbai,Jogeshwari West,164,94,166,28,58,42,1.3,7
+Maharashtra,Mumbai,Goregaon East,52,20,51,24,42,78,1.5,28
+Maharashtra,Mumbai,Malad East,180,80,152,20,31,50,2.0,13
+Maharashtra,Mumbai,Kandivali East,125,54,139,14,47,40,1.9,8
+Maharashtra,Mumbai,Borivali East,128,61,127,26,85,48,0.7,17
+Maharashtra,Mumbai,Borivali West,168,107,165,21,29,39,2.2,11
+Maharashtra,Mumbai,Dahisar West,80,37,65,11,54,43,0.6,29
+Maharashtra,Mumbai,Andheri East,185,101,199,9,48,31,1.7,13
+Maharashtra,Mumbai,Bandra East,109,68,81,15,48,72,0.5,29
+Maharashtra,Mumbai,Bandra West,151,74,124,22,40,39,2.1,11
+Maharashtra,Mumbai,Dadar East,76,37,83,12,45,41,1.4,30
+Maharashtra,Mumbai,Dadar West,176,114,158,35,85,26,1.5,27
+Maharashtra,Mumbai,Mahim East,130,79,115,33,57,24,1.8,15
+Maharashtra,Mumbai,Mahim West,182,93,186,11,80,24,2.2,16
+Maharashtra,Mumbai,Matunga East,83,31,81,26,38,45,1.1,7
+Maharashtra,Mumbai,Matunga West,65,36,53,18,63,54,0.8,28
+Maharashtra,Mumbai,Kurla East,60,27,60,31,29,23,2.2,16
+Maharashtra,Mumbai,Kurla West,82,48,86,17,59,47,0.4,16
+Maharashtra,Mumbai,Ghatkopar East,68,41,58,7,22,74,1.5,19
+Maharashtra,Mumbai,Ghatkopar West,62,32,58,16,66,41,1.2,10
+Maharashtra,Mumbai,Vikhroli East,88,39,83,22,88,53,2.1,6
+Maharashtra,Mumbai,Vikhroli West,88,37,91,28,63,36,1.5,6
+Maharashtra,Mumbai,Bhandup East,177,104,198,11,48,35,1.3,13
+Maharashtra,Mumbai,Bhandup West,98,37,94,33,20,64,1.2,24
+Maharashtra,Mumbai,Mulund East,77,33,85,17,61,34,2.0,14
+Maharashtra,Mumbai,Mulund West,188,86,174,15,83,37,1.0,16
+Maharashtra,Mumbai,Sion East,65,42,62,34,66,59,1.5,28
+Maharashtra,Mumbai,Sion West,87,52,99,8,79,22,1.8,11
+Maharashtra,Mumbai,Wadala East,149,61,151,12,76,33,0.4,12
+Maharashtra,Mumbai,Wadala West,159,83,137,33,72,52,0.4,20
+Maharashtra,Mumbai,Chembur East,178,115,185,7,61,66,1.8,26
+Maharashtra,Mumbai,Chembur West,186,83,199,18,34,29,1.0,23
+Maharashtra,Mumbai,Mankhurd East,187,116,163,31,63,50,1.0,12
+Maharashtra,Mumbai,Mankhurd West,161,63,180,12,23,52,0.4,6
+Maharashtra,Mumbai,Govandi East,182,93,156,20,79,34,0.6,13
+Maharashtra,Mumbai,Govandi West,116,64,97,21,57,34,1.2,22
+Maharashtra,Mumbai,Vashi East,47,21,41,9,25,38,1.6,8
+Maharashtra,Mumbai,Vashi West,170,74,178,8,55,63,1.6,10
+Maharashtra,Mumbai,Nerul East,130,55,117,10,29,45,2.2,15
+Maharashtra,Mumbai,Nerul West,168,88,183,29,65,62,2.1,9
+Maharashtra,Mumbai,Belapur East,149,57,134,23,31,53,2.1,28
+Maharashtra,Mumbai,Belapur West,133,84,148,24,44,53,0.8,10
+Maharashtra,Mumbai,Panvel East,52,26,54,7,32,34,2.1,19
+Maharashtra,Mumbai,Panvel West,132,81,100,34,69,23,0.6,24
+Maharashtra,Mumbai,Mira Road East,141,83,129,15,54,79,1.2,19
+Maharashtra,Mumbai,Mira Road West,175,81,194,19,84,57,1.6,8
+Maharashtra,Mumbai,Bhayandar East,164,91,178,28,27,32,2.0,9
+Maharashtra,Mumbai,Bhayandar West,93,47,89,28,73,64,1.1,10
+Maharashtra,Mumbai,Vasai East,156,94,132,35,76,41,0.9,19
+Maharashtra,Mumbai,Vasai West,116,50,108,15,83,50,1.6,11
+Maharashtra,Mumbai,Nalasopara East,93,49,87,30,49,47,2.1,17
+Maharashtra,Mumbai,Nalasopara West,93,35,88,14,70,26,1.4,7
+Maharashtra,Mumbai,Virar East,75,44,82,32,50,33,0.6,22
+Maharashtra,Mumbai,Virar West,92,35,89,15,20,62,1.7,25
+Maharashtra,Mumbai,Powai Lake,124,54,116,12,43,26,1.1,21
+Maharashtra,Mumbai,Hiranandani,168,64,185,22,56,36,1.7,26
+Maharashtra,Mumbai,IIT Bombay,96,62,77,20,49,46,1.8,16
+Maharashtra,Mumbai,Aarey,67,30,74,21,40,43,1.0,15
+Maharashtra,Mumbai,SEEPZ,154,78,122,20,59,68,1.3,28
+Maharashtra,Mumbai,MIDC Andheri,151,59,116,8,37,23,1.6,10
+Maharashtra,Mumbai,Nariman Point,144,78,119,20,79,33,1.2,26
+Maharashtra,Mumbai,Marine Drive,154,83,172,19,81,24,2.1,23
+Maharashtra,Mumbai,Fort,168,75,135,19,54,54,1.4,8
+Maharashtra,Mumbai,Worli Sea Face,190,104,177,35,23,59,1.9,11
+Maharashtra,Mumbai,Haji Ali,165,98,182,15,68,76,0.7,14
+Maharashtra,Mumbai,Shivaji Park,136,51,104,14,77,27,2.1,22
+Maharashtra,Mumbai,Dadar TT,124,48,124,31,90,30,1.1,24
+Maharashtra,Mumbai,King's Circle,133,72,101,15,47,58,1.8,20
+Maharashtra,Mumbai,Sion Circle,109,50,81,10,64,30,0.6,18
+Maharashtra,Mumbai,Bandra Kurla Complex,56,36,59,13,88,78,1.2,11
+Maharashtra,Mumbai,Kalina,134,57,144,25,25,38,1.2,21
+Maharashtra,Mumbai,Vakola,160,86,131,29,50,50,1.0,13
+Maharashtra,Mumbai,Marol,169,108,139,18,41,62,0.6,17
+Maharashtra,Mumbai,Chakala MIDC,91,43,104,11,34,62,1.2,25
+Maharashtra,Mumbai,Turbhe MIDC,51,26,55,34,84,66,1.3,15
+Maharashtra,Mumbai,Vashi Plaza,112,60,127,32,36,55,1.6,25
+Maharashtra,Mumbai,CBD Belapur,112,64,104,10,37,30,2.2,15
+Maharashtra,Mumbai,Kharghar Central Park,51,29,47,13,61,25,2.0,23
+Maharashtra,Mumbai,Churchgate,157,86,122,14,45,38,0.8,7
+Maharashtra,Mumbai,Marine Lines,158,69,128,18,89,32,1.5,30
+Maharashtra,Mumbai,Charni Road,131,73,130,35,32,68,1.7,18
+Maharashtra,Mumbai,Grant Road,90,36,68,14,84,27,0.5,15
+Maharashtra,Mumbai,Mumbai Central,92,43,99,22,77,43,0.8,6
+Maharashtra,Mumbai,Mahalaxmi,135,53,112,33,82,72,1.5,28
+Maharashtra,Mumbai,Lower Parel,161,84,177,15,84,54,1.3,7
+Maharashtra,Mumbai,Prabhadevi,54,22,40,22,32,22,0.6,11
+Maharashtra,Mumbai,Dadar,79,31,72,7,75,43,1.8,20
+Maharashtra,Mumbai,Matunga Road,172,70,145,34,50,51,1.8,10
+Maharashtra,Mumbai,Mahim,181,113,197,32,42,22,1.6,16
+Maharashtra,Mumbai,Bandra,108,47,85,18,34,53,1.4,13
+Maharashtra,Mumbai,Bandra Terminus,124,59,105,20,70,71,1.9,6
+Maharashtra,Mumbai,Khar Road,68,30,53,11,26,64,1.1,18
+Maharashtra,Mumbai,Santacruz,74,32,81,6,61,41,2.1,25
+Maharashtra,Mumbai,Vile Parle,104,61,87,23,36,41,2.2,5
+Maharashtra,Mumbai,Andheri,171,107,134,8,52,46,1.1,18
+Maharashtra,Mumbai,Jogeshwari,61,27,58,17,37,36,1.4,11
+Maharashtra,Mumbai,Ram Mandir,186,76,154,14,69,62,2.0,29
+Maharashtra,Mumbai,Goregaon,89,34,79,11,63,69,1.6,21
+Maharashtra,Mumbai,Malad,183,84,154,21,32,44,2.2,28
+Maharashtra,Mumbai,Kandivali,93,41,106,10,88,41,0.6,6
+Maharashtra,Mumbai,Borivali,88,51,84,29,43,38,0.9,8
+Maharashtra,Mumbai,Dahisar,116,59,94,31,49,40,2.1,28
+Maharashtra,Mumbai,Mira Road,165,71,136,6,90,80,1.9,27
+Maharashtra,Mumbai,Bhayandar,130,77,144,30,70,27,2.1,27
+Maharashtra,Mumbai,Naigaon,128,60,99,25,63,43,0.7,8
+Maharashtra,Mumbai,Vasai Road,71,28,77,9,72,52,1.3,9
+Maharashtra,Mumbai,Nalasopara,186,110,180,14,24,26,1.7,18
+Maharashtra,Mumbai,Virar,163,72,135,33,74,74,2.2,7
+Maharashtra,Mumbai,Chhatrapati Shivaji Maharaj Terminus,92,55,75,31,34,77,2.1,17
+Maharashtra,Mumbai,Masjid,185,86,174,17,64,55,1.5,27
+Maharashtra,Mumbai,Sandhurst Road,110,61,86,25,62,51,0.5,29
+Maharashtra,Mumbai,Byculla,93,43,70,25,88,34,1.7,23
+Maharashtra,Mumbai,Chinchpokli,122,60,131,24,59,79,1.5,25
+Maharashtra,Mumbai,Currey Road,71,44,54,21,23,24,1.9,20
+Maharashtra,Mumbai,Parel,184,85,154,7,57,74,0.5,14
+Maharashtra,Mumbai,Matunga,61,39,49,17,49,41,2.0,6
+Maharashtra,Mumbai,Sion,61,26,63,31,69,40,0.7,6
+Maharashtra,Mumbai,Kurla,108,61,99,18,87,37,0.7,11
+Maharashtra,Mumbai,Vidyavihar,124,49,141,20,68,38,0.6,9
+Maharashtra,Mumbai,Ghatkopar,121,75,119,6,62,34,0.8,15
+Maharashtra,Mumbai,Vikhroli,141,62,148,30,27,23,0.6,8
+Maharashtra,Mumbai,Kanjurmarg,50,27,51,16,48,22,1.3,5
+Maharashtra,Mumbai,Bhandup,48,29,42,17,47,51,1.5,8
+Maharashtra,Mumbai,Nahur,48,19,50,10,81,27,1.8,10
+Maharashtra,Mumbai,Mulund,78,38,78,32,56,56,2.0,6
+Maharashtra,Mumbai,Thane,116,67,96,24,51,61,0.6,11
+Maharashtra,Mumbai,Kalwa,68,31,69,6,20,64,1.6,9
+Maharashtra,Mumbai,Mumbra,154,75,161,14,24,60,1.4,21
+Maharashtra,Mumbai,Diva,153,96,135,26,46,45,0.5,17
+Maharashtra,Mumbai,Dombivli,145,62,121,11,54,58,1.7,30
+Maharashtra,Mumbai,Thakurli,142,75,163,28,73,62,1.6,20
+Maharashtra,Mumbai,Kalyan,137,58,131,24,55,47,0.9,9
+Maharashtra,Mumbai,Shahad,73,28,69,32,79,28,1.7,15
+Maharashtra,Mumbai,Ambivli,169,84,172,27,25,58,0.5,29
+Maharashtra,Mumbai,Titwala,185,85,142,35,47,38,1.1,23
+Maharashtra,Mumbai,Khardi,101,48,84,25,77,41,0.5,19
+Maharashtra,Mumbai,Kasara,158,72,152,14,22,43,0.6,28
+Maharashtra,Mumbai,Vithalwadi,100,54,81,16,71,37,2.1,28
+Maharashtra,Mumbai,Ulhasnagar,64,25,54,29,54,66,0.5,15
+Maharashtra,Mumbai,Ambernath,70,31,56,34,90,61,0.4,28
+Maharashtra,Mumbai,Badlapur,132,77,139,29,27,35,1.9,12
+Maharashtra,Mumbai,Vangani,118,67,106,19,39,62,1.1,15
+Maharashtra,Mumbai,Shelu,162,69,135,12,26,43,0.6,30
+Maharashtra,Mumbai,Neral,73,40,68,18,63,20,1.0,9
+Maharashtra,Mumbai,Bhivpuri Road,149,77,169,8,76,23,0.8,25
+Maharashtra,Mumbai,Karjat,154,94,157,25,70,42,0.7,17
+Maharashtra,Mumbai,Khopoli,124,55,105,21,74,53,1.0,22
+Maharashtra,Mumbai,Dockyard Road,100,47,83,32,83,41,1.8,16
+Maharashtra,Mumbai,Reay Road,145,57,157,27,46,69,1.9,23
+Maharashtra,Mumbai,Cotton Green,151,59,172,11,47,51,2.0,28
+Maharashtra,Mumbai,Sewri,143,58,122,9,81,54,1.0,20
+Maharashtra,Mumbai,Wadala Road,64,25,56,11,52,59,0.6,21
+Maharashtra,Mumbai,GTB Nagar,113,73,117,17,63,61,0.7,29
+Maharashtra,Mumbai,Chunabhatti,80,46,81,35,44,58,1.0,21
+Maharashtra,Mumbai,Tilak Nagar,95,58,82,10,68,59,1.8,8
+Maharashtra,Mumbai,Chembur,58,32,46,27,28,48,1.4,5
