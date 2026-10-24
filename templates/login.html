@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="auth-container">
+    <div class="brand">
+        <div class="brand-icon">↗</div>
+        <h1>Mumbai AQI Monitor</h1>
+        <p>Breathe smarter. Stay informed.</p>
+    </div>
+    <div class="auth-card">
+        <h2>Welcome back</h2>
+        <p class="subtitle">Sign in to your account</p>
+
+        {% if error %}
+            <div class="error-message">{{ error }}</div>
+        {% endif %}
+
+        <form method="POST" action="{{ url_for('login') }}">
+            <label for="username">Email or username</label>
+            <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Enter your email or username"
+                autocomplete="username"
+                required>
+
+            <label for="password">Password</label>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+                autocomplete="current-password"
+                required>
+
+            <button type="submit" class="primary-button">
+                Sign In
+            </button>
+        </form>
+
+        <p class="auth-footer">
+            Don't have an account?
+            <a href="{{ url_for('register') }}">Register</a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
