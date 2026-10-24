@@ -4,32 +4,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard | Mumbai AQI Monitor</title>
 
+    <title>Mumbai AQI Monitor - Dashboard</title>
+
+    <!-- Main CSS -->
     <link rel="stylesheet"
           href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Dashboard-specific CSS -->
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='dashboard.css') }}">
 </head>
+
 <body>
 
-<div class="auth-container">
-    <div class="auth-card">
-        <h2>Welcome, {{ user["full_name"] }}!</h2>
+<div class="dashboard">
 
-        <p class="subtitle">
-            You have successfully signed in to Mumbai AQI Monitor.
-        </p>
+    <!-- Dashboard Header -->
+    <header class="dashboard-header">
+        <div>
+            <h1>Mumbai AQI Monitor</h1>
+            <p class="welcome">
+                Welcome, {{ user["full_name"] }}!
+            </p>
+        </div>
 
-        <p><strong>Email:</strong> {{ user["email"] }}</p>
-
-        <p>Your protected AQI dashboard will appear here next.</p>
-
-        <form method="POST" action="{{ url_for('logout') }}">
-            <button type="submit" class="primary-button">
+        <form action="{{ url_for('logout') }}" method="POST">
+            <button type="submit" class="logout-button">
                 Logout
             </button>
         </form>
-    </div>
+    </header>
+
+    <!-- AQI Summary Cards -->
+    <section class="stats">
+
+        <div class="stat-card">
+            <h3>Average AQI</h3>
+            <div class="value">
+                {{ average_aqi if average_aqi is not none else "N/A" }}
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <h3>Highest AQI</h3>
+            <div class="value">
+                {{ highest["aqi"] if highest else "N/A" }}
+            </div>
+
+            {% if highest %}
+                <p>{{ highest["station"] }}</p>
+            {% endif %}
+        </div>
+
+        <div class="stat-card">
+            <h3>Lowest AQI</h3>
+            <div class="value">
+                {{ lowest["aqi"] if lowest else "N/A" }}
+            </div>
+
+            {% if lowest %}
+                <p>{{ lowest["station"] }}</p>
+            {% endif %}
+        </div>
+
+        <div class="stat-card">
+            <h3>Total Stations</h3>
+            <div class="value">
+                {{ aqi_data|length }}
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Air Quality Station Table -->
+    <section class="station-panel">
+
+        <h2>Air Quality Details</h2>
+        <p>View and search air quality information for monitoring stations.</p>
+
+        <label for="stationSearch">Search by city or station:</label>
+
+        <input
+            type="text"
+            id="stationSearch"
+            class="filter-input"
+            placeholder="Enter city or station name..."
+        >
+
+        <table class="station-table">
+            <thead>
+                <tr>
+                    <th>City</th>
+                    <th>Station</th>
+                    <th>AQI</th>
+                    <th>Category</th>
+                    <th>PM2.5</th>
+                    <th>PM10</th>
+                </tr>
+            </thead>
+
+            <tbody id="stationTableBody">
+
+                {% for row in aqi_data %}
+                <tr>
+                    <td>{{ row["city"] }}</td>
+                    <td>{{ row["station"] }}</td>
+                    <td>{{ row["aqi"] }}</td>
+                    <td>
+                        <span class="category category-{{ row['category']|lower|replace(' ', '-') }}">
+    {{ row["category"] }}
+</span>
+                    </td>
+                    <td>{{ row["pm25"] }}</td>
+                    <td>{{ row["pm10"] }}</td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="6">No air quality data available.</td>
+                </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+
+        <p id="noResults" hidden>
+            No matching stations found.
+        </p>
+
+    </section>
+
 </div>
 
+<script src="{{ url_for('static', filename='dashboard.js') }}"></script>
 </body>
 </html>

@@ -4,20 +4,27 @@ from pathlib import Path
 import sqlite3
 import re
 import os
+import csv
+from backend.aqi_category import get_aqi_category
+
 app = Flask(__name__)
-app.config["SECRET_KEY"] = os.environ.get("FLASK_SECRET_KEY")
-if not app.config["SECRET_KEY"]:
-    raise RuntimeError("Please set the FLASK_SECRET_KEY environment variable.")
+app.config["SECRET_KEY"] = (
+    os.environ.get("FLASK_SECRET_KEY") or os.urandom(32).hex())
 BASE_DIR = Path(__file__).resolve().parent
 DB_PATH = BASE_DIR / "users.db"
-
-
+AQI_FILE = BASE_DIR / "backend" / "data" / "aqi_data.csv"
+def load_aqi_data():
+    aqi_data = []
+    with open(AQI_FILE, "r", newline="", encoding="utf-8-sig") as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            row["category"] = get_aqi_category(row["aqi"])
+            aqi_data.append(row)
+    return aqi_data
 def get_db():
     connection = sqlite3.connect(DB_PATH)
     connection.row_factory = sqlite3.Row
     return connection
-
-
 def initialize_database():
     with get_db() as db:
         db.execute("""
@@ -114,7 +121,27 @@ def dashboard():
     if user is None:
         session.clear()
         return redirect(url_for("login"))
-    return render_template("dashboard.html", user=user)
+    aqi_data = load_aqi_data()
+
+    if aqi_data:
+        highest = max(aqi_data, key=lambda row: float(row["aqi"]))
+        lowest = min(aqi_data, key=lambda row: float(row["aqi"]))
+        average_aqi = round(
+            sum(float(row["aqi"]) for row in aqi_data) / len(aqi_data)
+        )
+    else:
+        highest = None
+        lowest = None
+        average_aqi = None
+
+    return render_template(
+        "dashboard.html",
+        user=user,
+        aqi_data=aqi_data,
+        highest=highest,
+        lowest=lowest,
+        average_aqi=average_aqi
+    )
 @app.route("/logout", methods=["POST"])
 def logout():
     session.clear()
