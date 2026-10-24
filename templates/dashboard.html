@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mumbai AQI Monitor - Dashboard</title>
+    <title>Mumbai AQI Monitor</title>
 
-    <!-- Main CSS -->
+    <!-- Existing website CSS -->
     <link rel="stylesheet"
           href="{{ url_for('static', filename='style.css') }}">
 
-    <!-- Dashboard-specific CSS -->
+    <!-- Dashboard CSS -->
     <link rel="stylesheet"
           href="{{ url_for('static', filename='dashboard.css') }}">
 </head>
@@ -20,7 +20,6 @@
 
 <div class="dashboard">
 
-    <!-- Dashboard Header -->
     <header class="dashboard-header">
         <div>
             <h1>Mumbai AQI Monitor</h1>
@@ -36,7 +35,7 @@
         </form>
     </header>
 
-    <!-- AQI Summary Cards -->
+    <!-- Summary cards -->
     <section class="stats">
 
         <div class="stat-card">
@@ -51,7 +50,6 @@
             <div class="value">
                 {{ highest["aqi"] if highest else "N/A" }}
             </div>
-
             {% if highest %}
                 <p>{{ highest["station"] }}</p>
             {% endif %}
@@ -62,7 +60,6 @@
             <div class="value">
                 {{ lowest["aqi"] if lowest else "N/A" }}
             </div>
-
             {% if lowest %}
                 <p>{{ lowest["station"] }}</p>
             {% endif %}
@@ -70,63 +67,89 @@
 
         <div class="stat-card">
             <h3>Total Stations</h3>
-            <div class="value">
-                {{ aqi_data|length }}
-            </div>
+            <div class="value">{{ aqi_data|length }}</div>
         </div>
 
     </section>
 
-    <!-- Air Quality Station Table -->
+    <!-- AQI operations -->
     <section class="station-panel">
 
-        <h2>Air Quality Details</h2>
-        <p>View and search air quality information for monitoring stations.</p>
+        <h2>AQI Operations</h2>
+        <p>Select an operation to analyze air quality data.</p>
 
-        <label for="stationSearch">Search by city or station:</label>
+        <div class="operation-buttons">
+            <button type="button" id="showAllBtn">
+                Show All Stations
+            </button>
 
-        <input
-            type="text"
-            id="stationSearch"
-            class="filter-input"
-            placeholder="Enter city or station name..."
-        >
+            <button type="button" id="highestBtn">
+                Show Highest AQI
+            </button>
 
-        <table class="station-table">
-            <thead>
-                <tr>
-                    <th>City</th>
-                    <th>Station</th>
-                    <th>AQI</th>
-                    <th>Category</th>
-                    <th>PM2.5</th>
-                    <th>PM10</th>
-                </tr>
-            </thead>
+            <button type="button" id="lowestBtn">
+                Show Lowest AQI
+            </button>
+            <a href="{{ url_for('aqi_analysis') }}"
+                class="operation-btn">
+                AQI Analysis
+            </a>
+        </div>
 
-            <tbody id="stationTableBody">
+        <h2>Search AQI by Location and Station</h2>
 
-                {% for row in aqi_data %}
-                <tr>
-                    <td>{{ row["city"] }}</td>
-                    <td>{{ row["station"] }}</td>
-                    <td>{{ row["aqi"] }}</td>
-                    <td>
-                        <span class="category category-{{ row['category']|lower|replace(' ', '-') }}">
-    {{ row["category"] }}
-</span>
-                    </td>
-                    <td>{{ row["pm25"] }}</td>
-                    <td>{{ row["pm10"] }}</td>
-                </tr>
-                {% else %}
-                <tr>
-                    <td colspan="6">No air quality data available.</td>
-                </tr>
-                {% endfor %}
+        <div class="search-controls">
+            <input
+                type="text"
+                id="stationSearch"
+                class="filter-input"
+                placeholder="Enter city or station name..."
+            >
 
-            </tbody>
-        </table>
+            <button type="button" id="searchBtn">
+                Search AQI
+            </button>
+        </div>
+
+        <p id="operationStatus" aria-live="polite"></p>
+
+        <div class="station-panel-table">
+            <table class="station-table">
+                <thead>
+                    <tr>
+                        <th>City</th>
+                        <th>Station</th>
+                        <th>AQI</th>
+                        <th>Category</th>
+                        <th>PM2.5</th>
+                        <th>PM10</th>
+                    </tr>
+                </thead>
+
+                <tbody id="stationTableBody">
+                    {% for row in aqi_data %}
+                    <tr>
+                        <td>{{ row["city"] }}</td>
+                        <td>{{ row["station"] }}</td>
+                        <td>{{ row["aqi"] }}</td>
+                        <td>
+                            <span class="category category-{{ row['category']|lower|replace(' ', '-') }}">
+                                {{ row["category"] }}
+                            </span>
+                        </td>
+                        <td>{{ row["pm25"] }}</td>
+                        <td>{{ row["pm10"] }}</td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="6">
+                            No air quality data available.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
 
         <p id="noResults" hidden>
             No matching stations found.
@@ -134,8 +157,13 @@
 
     </section>
 
+    <footer class="dashboard-footer">
+        Mumbai AQI Monitor | Air Quality Monitoring Dashboard
+    </footer>
+
 </div>
 
 <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+
 </body>
 </html>

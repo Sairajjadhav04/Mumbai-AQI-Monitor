@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AQI Category Analysis</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='aqi_analysis.css') }}">
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+
+        <h1>AQI Category Analysis</h1>
+
+        <p>
+            This graph shows the number of monitoring stations
+            in each air quality category.
+        </p>
+
+        <div class="stats-container">
+            {% for category, count in counts.items() %}
+            <div class="stat-card">
+                <h3>{{ category }}</h3>
+                <p>{{ count }} station(s)</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="analysis-chart">
+            <img
+                src="{{ url_for('static',
+                     filename='aqi_category_chart.png') }}"
+                alt="Bar graph showing station counts by AQI category"
+                style="max-width: 100%; height: auto;"
+            >
+        </div>
+
+        <a href="{{ url_for('dashboard') }}"
+           class="operation-btn">
+            Back to Dashboard
+        </a>
+
+    </div>
+
+</body>
+</html>
