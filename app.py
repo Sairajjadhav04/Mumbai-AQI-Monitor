@@ -3,10 +3,11 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from pathlib import Path
 import sqlite3
 import re
+import os
 app = Flask(__name__)
-
-app.config["SECRET_KEY"] = "a12efdef5223752eca4e5cc3c33130fc12a22c4905f8926fe05f9c4ff31d3ef8"
-
+app.config["SECRET_KEY"] = os.environ.get("FLASK_SECRET_KEY")
+if not app.config["SECRET_KEY"]:
+    raise RuntimeError("Please set the FLASK_SECRET_KEY environment variable.")
 BASE_DIR = Path(__file__).resolve().parent
 DB_PATH = BASE_DIR / "users.db"
 
