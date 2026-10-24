@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Mumbai AQI Monitor</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="auth-container">
+    <div class="auth-card">
+        <h2>Welcome, {{ user["full_name"] }}!</h2>
+
+        <p class="subtitle">
+            You have successfully signed in to Mumbai AQI Monitor.
+        </p>
+
+        <p><strong>Email:</strong> {{ user["email"] }}</p>
+
+        <p>Your protected AQI dashboard will appear here next.</p>
+
+        <form method="POST" action="{{ url_for('logout') }}">
+            <button type="submit" class="primary-button">
+                Logout
+            </button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
